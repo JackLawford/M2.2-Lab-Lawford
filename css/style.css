@@ -1,4 +1,78 @@
+/* Global Styles */
+body{
+  background-color: #607060;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  font-weight: 800;
+}
+
+button{
+  background-color: #607060;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #708070;
+}
+
+/* Styles for provided template material */
+.template-wrapper{
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 50vw;
+  min-width: 400px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Styles for Task Six */
+.task-six-wrapper{
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 50vw;
+  min-width: 400px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.task-six-wrapper .profile-img{
+  margin-bottom: 20px;
+}
+
+.task-six-wrapper h2{
+  margin: 0;
+}
+
+.task-six-wrapper ul{
+  list-style-type: none;
+  width: 40%;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.profile-img{
+  min-width: 200px;
+  width: 20vw;
+  max-width: 350px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
 }

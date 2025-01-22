@@ -11,27 +11,52 @@
 </head>
 
 <body>
-  <h1>HTML Rocks!</h1>
-  <p>
-    <button  onclick="helloWorld()">Prints Hello World to the Developer console</button>
-  </p>
-  <hr>
-  <form id="addForm">
-    <label for="num1">Number 1:</label>
-    <input type="number" id="num1" name="num1" required>
-    <br>
-    <label for="num2">Number 2:</label>
-    <input type="number" id="num2" name="num2" required>
-    <br>
-    <button type="submit">Add Numbers</button>
-  </form>
+  <div class="template-wrapper">
+    <h1>HTML Rocks!</h1>
+    <p>
+      <button  onclick="helloWorld()">Prints Hello World to the Developer console</button>
+    </p>
+    <hr>
+    <form id="addForm">
+      <label for="num1">Number 1:</label>
+      <input type="number" id="num1" name="num1" required>
+      <br>
+      <label for="num2">Number 2:</label>
+      <input type="number" id="num2" name="num2" required>
+      <br>
+      <button type="submit">Add Numbers</button>
+    </form>
+  
+    <label id="result">Result:</label>
+  
+    <hr>
+  
+    <button id="jokeButton">Get a Random Joke</button>
+    <p id="joke"></p>
+  </div>
 
-  <label id="result">Result:</label>
-
-  <hr>
-
-  <button id="jokeButton">Get a Random Joke</button>
-  <p id="joke"></p>
+  <div class="task-six-wrapper">
+    <h1>About</h1>
+    <img class="profile-img" src="public/mycar.jpg" alt="The student's car in place of a potrait, since he has no recent photos of himself">
+    <ul>
+      <li>
+        <h2>Student Name</h2>
+        <p>Jack Lawford</p>
+      </li>
+      <li>
+        <h2>Expected Graduation</h2>
+        <p>Fall 2025</p>
+      </li>
+      <li>
+        <h2>Current Occupation</h2>
+        <p>Part-Time Warehouse Employee, Full-Time Entrepreneur</p>
+      </li>
+      <li>
+        <h2>Prior Web-Dev Experience</h2>
+        <p>Limited freelance/contracted professional experience, extensive ReactJS experience from personal projects</p>
+      </li>
+    </ul>
+  </div>
 
   <script type="module" script="js/main.js">
     import {helloWorld, add, fetchRandomJoke} from './js/main.js';
